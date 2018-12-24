@@ -1,36 +1,194 @@
-<div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
-</div>
-
-<div class="row marketing">
-  <div class="col-lg-6">
-    <h4>Resources</h4>
-    <ul>
-      <li>
-        <a href="http://phoenixframework.org/docs/overview">Guides</a>
-      </li>
-      <li>
-        <a href="https://hexdocs.pm/phoenix">Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-    </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Yipcart | Accelerate your sales</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="css/yip-font.css"/>
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/yip-images.css"/>
+  <link rel="stylesheet" href="css/yip-texts.css"/>
+  <link rel="stylesheet" href="css/yip-backgrounds.css"/>
+  <link rel="stylesheet" href="css/yipcart.css"/>
+  <link rel="stylesheet" href="css/yip-transitions.css"/>
+  <link rel="stylesheet" href="css/yip-media-screens.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container-fluid navbar yip-blue-back1">
+    <nav class="navbar-expand-lg navbar-light container">
+      <a href="index.html" class="header-logo">
+        <img src="images/header-logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <span class="navbar-nav mr-auto"></span>
+        <a href="waiting.html">
+          <button class="yip-button">I want a demo</button>
+        </a>
+      </div>
+    </nav>
   </div>
-
-  <div class="col-lg-6">
-    <h4>Help</h4>
-    <ul>
-      <li>
-        <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
-      </li>
-      <li>
-        <a href="http://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
-      </li>
-    </ul>
-  </div>
-</div>
+  <section class="hero-section container-fluid yip-blue-back1 yip-image-back2">
+    <div class="container">
+      <div class="row align-items-center first-row">
+        <div class="col-sm-6">
+          <div class="tagline">
+            <h1>Sell with ease to everyone, everywhere, everytime</h1>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="hero-highlights-section">
+            <div class="col">
+              <h3>Download one app & Instantly own</h3>
+              <ul>
+                <li class="row"><i class="fa fa-check"></i><span>An E-commerce website</span></li>
+                <li class="row"><i class="fa fa-check"></i><span>A social media marketing system</span></li>
+                <li class="row"><i class="fa fa-check"></i><span>A digital business managment suite</span></li>
+              </ul>
+            </div>
+            <div class="col justify-content-center"><a href="waiting.html"><button class="yip-button">Show me</button></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div>
+          <img src="images/hero-image.png" class="hero-image" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="summary-section container-fluid" id="about-yipcart">
+    <div class="container">
+      <div class="col-sm-8">
+        <div class="col">
+          <h2>One app to rule them all</h3>
+          <p>One mobile console to run every aspect of your business, from inventory and customer management to marketing, sales, and everything in between.</p>
+        </div>
+        <div class="col"><a href="waiting.html"><button class="yip-button">I want to see it</button></a></div>
+      </div>
+    </div>
+  </section>
+  <section class="all-sections container-fluid yip-blue-back2">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-6">
+          <img src="images/webstore.png" alt="">
+        </div>
+        <div class="col-sm-6">
+          <div class="col">
+            <h2>Sell to everyone from your own Ecommerce website</h3>
+            <p>Instal Yipcart & instantly own an ecommerce website, allowing your customers view your product & services online, place orders & make payments to your account from anywhere, at anytime.</p>
+          </div>
+          <ul class="feature-highlights">
+            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Get order notifications on your app</span></li>
+            <li class="row align-items-center"><i class="fa fa-circle"></i><span>pay on delivery integrated</span></li>
+            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Instant e-invoice & reciept to customers</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="all-sections container-fluid yip-blue-back3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-6 order-last">
+          <img src="images/social-media.png" alt="">
+        </div>
+        <div class="col-sm-6">
+          <div class="col">
+            <h2>Multi-channel Social media marketing</h3>
+            <p>Add new products to your inventory & instantly have them available to your customers on your social media channels</p>
+          </div>
+          <ul class="feature-highlights">
+            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Facebook</span></li>
+            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Instagram</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="all-sections container-fluid yip-lightgreen-back">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-6">
+          <img src="images/business-operations.png" alt="">
+        </div>
+        <div class="col-sm-6">
+          <div class="col">
+            <h2>Your entire business operation in the palm of your hand</h3>
+            <p>From your mobile device, Yipcart allows you to smoothly manage your inventory, customer relations, cross-platform sales & marketing, invoice, reciepts and expenses. Get monthly analysis on income, customer base growth and product performance.</p>
+          </div>
+          <ul class="feature-highlights">
+            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Re-stock notification</span></li>
+            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Set featured products for your website</span></li>
+            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Social media hash tags for search optimization</span></li>
+            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Customers transaction history</span></li>
+            <li class="row align-items-center"><i class="fa fa-circle"></i><span>View your daily income as you sell</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid yip-image-back call-to-join-testers">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-6">
+          <p>Try Yipcart now</p>
+          <h1>Join our growing community of early merchants</h1>
+          <a href="waiting.html"><button class="yip-button">Request a demo</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <a href="index.html" class="col-3 footer-logo">
+          <img src="images/footer-logo.png" alt="">
+        </a>
+        <div class="col-sm-3">
+          <div class="footer-group-label">
+            <h4>Lagos</h4>
+          </div>
+          <div class="footer-group col-sm-12">
+            <ul>
+              <li>4th Avanue, 401 Road, E Close, Block 4, Flat 5, Festac Town, Lagos</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="footer-group-label">
+            <h4>Ondo</h4>
+          </div>
+          <div class="footer-group col-sm-12">
+            <ul>
+              <li>J11 Obaile housing Estate, Akure, Ondo State</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="footer-group-label">
+            <h4>Follow</h4>
+          </div>
+          <div class="footer-group col">
+            <ul class="row follow-social">
+              <li><a href="https://www.instagram.com/yipcarthq/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href=" https://twitter.com/yipcarthq" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+              <li><a href=" https://facebook.com/yipcarthq" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+            </ul> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
