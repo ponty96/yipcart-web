@@ -11,7 +11,7 @@ config :yipcart,
 
 # Configures the endpoint
 config :yipcart, YipcartWeb.Endpoint,
-config YipcartWeb.Endpoint, url: [host: "yipcart-web.herokuapp.com"]
+  url: [host: "yipcart-web.herokuapp.com"]
   secret_key_base: "ZrGocja6aT0C7428licdkIHJ0qVI6E/ri8UzakDV6NR3lGet5ApkZbDCoFJR9OmW",
   render_errors: [view: YipcartWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Yipcart.PubSub,
