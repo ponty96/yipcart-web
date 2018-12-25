@@ -1,35 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Hello Yipcart!</title>
-    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yipcart | Accelerate your sales</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="css/yip-font.css"/>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/yip-images.css"/>
+    <link rel="stylesheet" href="css/yip-texts.css"/>
+    <link rel="stylesheet" href="css/yip-backgrounds.css"/>
+    <link rel="stylesheet" href="css/yipcart.css"/>
+    <link rel="stylesheet" href="css/waiting.css"/>
+    <link rel="stylesheet" href="css/yip-transitions.css"/>
+    <link rel="stylesheet" href="css/yip-media-screens.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
-    <div class="container">
-      <header class="header">
-        <nav role="navigation">
-          <ul class="nav nav-pills pull-right">
-            <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
-          </ul>
-        </nav>
-        <span class="logo"></span>
-      </header>
+    <main role="main">
+      <%= render @view_module, @view_template, assigns %>
+    </main>
 
-      <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <a href="<%= page_path(@conn, :index) %>" class="col-3 footer-logo">
+            <img src="images/footer-logo.png" alt="">
+          </a>
+          <div class="col-sm-3">
+            <div class="footer-group-label">
+              <h4>Lagos</h4>
+            </div>
+            <div class="footer-group col-sm-12">
+              <ul>
+                <li>4th Avanue, 401 Road, E Close, Block 4, Flat 5, Festac Town, Lagos</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="footer-group-label">
+              <h4>Ondo</h4>
+            </div>
+            <div class="footer-group col-sm-12">
+              <ul>
+                <li>J11 Obaile housing Estate, Akure, Ondo State</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="footer-group-label">
+              <h4>Follow</h4>
+            </div>
+            <div class="footer-group col">
+              <ul class="row follow-social">
+                <li><a href="https://www.instagram.com/yipcarthq/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href=" https://twitter.com/yipcarthq" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+                <li><a href=" https://facebook.com/yipcarthq" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+              </ul> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-      <main role="main">
-        <%= render @view_module, @view_template, assigns %>
-      </main>
-
-    </div> <!-- /container -->
-    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -1,0 +1,14 @@
+<div id="form-closeure-message" class="form-closure container-fluid">
+  <div class="form-closure-content col justify-content-center yip-image-back2">
+    <a href="<%= page_path(@conn, :index) %>"><i class="fa fa-arrow-circle-left"></i></a>
+    <div class="col align-items-center">
+    	<h1>Thank you <%= @name %> for joining</h1>
+      <p>You will receive a mail containing the app download link and everything you need to get started. In the mean time you can just follow the buzz on</p>
+      <ul class="row justify-content-center follow-social">
+      <li><a href="https://www.instagram.com/yipcarthq/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+      <li><a href=" https://twitter.com/yipcarthq" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+      <li><a href=" https://facebook.com/yipcarthq" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>

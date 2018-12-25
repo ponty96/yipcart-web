@@ -22,6 +22,15 @@ config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   metadata: [:user_id]
 
+config :yipcart, Yipcart.Mailer,
+  adapter: Bamboo.SendGridAdapter,
+  api_key: "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"
+
+plug Plug.Session,
+    store: :cookie,
+    max_age: 24*60*60*37,       # 37 days
+    signing_salt: "random signing salt"
+
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 import_config "#{Mix.env}.exs"

@@ -1,27 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Yipcart | Accelerate your sales</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-  <link rel="stylesheet" href="css/yip-font.css"/>
-  <link rel="shortcut icon" href="images/favicon.png">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/yip-images.css"/>
-  <link rel="stylesheet" href="css/yip-texts.css"/>
-  <link rel="stylesheet" href="css/yip-backgrounds.css"/>
-  <link rel="stylesheet" href="css/yipcart.css"/>
-  <link rel="stylesheet" href="css/waiting.css"/>
-  <link rel="stylesheet" href="css/yip-transitions.css"/>
-  <link rel="stylesheet" href="css/yip-media-screens.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+
   <div class="container-fluid navbar yip-blue-back1">
     <nav class="navbar-expand-lg navbar-light container">
-      <a href="index.html" class="header-logo">
+      <a href="<%= page_path(@conn, :index) %>" class="header-logo">
         <img src="images/header-logo.png" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,82 +16,17 @@
         <p>Enter your email, and we will send you the app along with installation instructions</p>
       </div>
       <div class="yip-form">
-        <form action="post">
+        <%= form_for @changeset, page_path(@conn, :create), [as: :entry], fn f -> %>
           <div class="input-block">
-            <input type="text" name="email" placeholder="Your email">
+            <%= text_input f, :email, placeholder: "Your email" %>
+            <%= error_tag f, :email %>
           </div>
           <div class="input-block">
-            <input type="text" name="name" placeholder="Your name or business name">
+            <%= text_input f, :business_name, placeholder: "Your name or business name" %>
+            <%= error_tag f, :business_name %>
           </div>
-          <button class="yip-button" type="submit">Send my invite</button>
-        </form> 
+          <%= submit "Send my invoice", class: "yip-button" %>
+        <% end %> 
       </div>
     </div>
   </section>
-
-  <!–– this should only showup after the visitor sucsessfully fills the form. its style is inside the waiting.css sheet. 
-  Its hidden over the top using top:-100%. Bring it down by making the top:100% ––>
-
-  <div id="form-closeure-message" class="form-closure container-fluid">
-    <div class="form-closure-content col justify-content-center yip-image-back2">
-      <a href="index.html"><i class="fa fa-arrow-circle-left"></i></a>
-      <div class="col align-items-center">
-        <h1>Thank you Kayode for joining</h1>
-        <p>You will receive a mail containing the app download link and everything you need to get started. In the mean time you can just follow the buzz on</p>
-         <ul class="row justify-content-center follow-social">
-            <li><a href="https://www.instagram.com/yipcarthq/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-            <li><a href=" https://twitter.com/yipcarthq" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
-            <li><a href=" https://facebook.com/yipcarthq" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-          </ul>
-      </div>
-    </div>
-  </div>
-
-  <!––-----------------------------------------------------------------------––>
-
-  <footer class="container-fluid">
-    <div class="container">
-      <div class="row">
-        <a href="index.html" class="col-3 footer-logo">
-          <img src="images/footer-logo.png" alt="">
-        </a>
-        <div class="col-sm-3">
-          <div class="footer-group-label">
-            <h4>Lagos</h4>
-          </div>
-          <div class="footer-group col-sm-12">
-            <ul>
-              <li>4th Avanue, 401 Road, E Close, Block 4, Flat 5, Festac Town, Lagos</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="footer-group-label">
-            <h4>Ondo</h4>
-          </div>
-          <div class="footer-group col-sm-12">
-            <ul>
-              <li>J11 Obaile housing Estate, Akure, Ondo State</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="footer-group-label">
-            <h4>Follow</h4>
-          </div>
-          <div class="footer-group col">
-            <ul class="row follow-social">
-              <li><a href="https://www.instagram.com/yipcarthq/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-              <li><a href=" https://twitter.com/yipcarthq" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
-              <li><a href=" https://facebook.com/yipcarthq" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-            </ul> 
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-</body>
-</html>

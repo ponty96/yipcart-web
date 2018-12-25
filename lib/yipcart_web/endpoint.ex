@@ -35,7 +35,8 @@ defmodule YipcartWeb.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_yipcart_key",
-    signing_salt: "G20Q0HEH"
+    signing_salt: "G20Q0HEH",
+    max_age: 60
 
   plug YipcartWeb.Router
 
