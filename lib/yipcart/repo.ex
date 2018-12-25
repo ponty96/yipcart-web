@@ -1,5 +1,5 @@
 defmodule Yipcart.Repo do
-  use Ecto.Repo, otp_app: :yipcart
+  use Ecto.Repo, otp_app: :yipcart, adapter: Ecto.Adapters.Postgres
 
   @doc """
   Dynamically loads the repository url from the
