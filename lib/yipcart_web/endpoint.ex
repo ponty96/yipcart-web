@@ -1,7 +1,9 @@
 defmodule YipcartWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :yipcart
 
-  socket "/socket", YipcartWeb.UserSocket
+  socket "/socket", YipcartWeb.UserSocket,
+    websocket: [timeout: 45_000],
+    longpoll: false
 
   # Serve at "/" the static files from "priv/static" directory.
   #
