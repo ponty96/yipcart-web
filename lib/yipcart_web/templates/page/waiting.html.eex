@@ -22,7 +22,7 @@
             <%= text_input f, :business_name, placeholder: "Your name or business name" %>
             <%= error_tag f, :business_name %>
           </div>
-          <%= submit "Send my invoice", class: "yip-button" %>
+          <%= submit "Send my invite", class: "yip-button" %>
         <% end %> 
       </div>
     </div>
