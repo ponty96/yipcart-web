@@ -4,9 +4,6 @@
       <a href="<%= page_path(@conn, :index) %>" class="header-logo">
         <img src="images/header-logo.png" alt="">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
     </nav>
   </div>
   <section class="container-fliud yip-blue-back2">

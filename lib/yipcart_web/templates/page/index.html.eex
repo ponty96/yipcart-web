@@ -127,3 +127,25 @@
       </div>
     </div>
   </section>
+  <section class="all-sections container-fluid join-whatsapp yip-image-back3">
+    <div class="container">
+      <div class="row align-items-center">
+          <div class="col-sm-6"><div class="col"><a href="https://chat.whatsapp.com/GF6ZfDQKf9j1RaVS0Q075a" target="_blank" class="whatsapp-image d-flex flex-row justify-content-center align-items-center"><i class="fa fa-whatsapp"></i></a></div></div>
+        <div class="col-sm-6">
+          <div class="col">
+            <h1>Tell us what you need</h1>
+            <div class="msg yip-whatsapp-chat-back">
+                <div class="bubble alt">
+                  <div class="txt">
+                    <span class="name alt">YipCart Team</span>
+                    <span class="timestamp">Today</span>
+                    <p class="message">Join our whatsapp group of merchants who have helped us be able to tailor YipCart to their unique needs by telling us what their businesses actually needs. Your input will be very useful.</p>
+                  </div>
+                </div>
+            </div>
+            <a href="https://chat.whatsapp.com/GF6ZfDQKf9j1RaVS0Q075a" target="_blank"><button class="yip-button2">Join whatsapp now</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

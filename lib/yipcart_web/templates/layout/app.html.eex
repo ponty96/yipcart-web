@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/yip-backgrounds.css"/>
     <link rel="stylesheet" href="css/yipcart.css"/>
     <link rel="stylesheet" href="css/waiting.css"/>
+    <link rel="stylesheet" href="css/thank-you.css"/>
     <link rel="stylesheet" href="css/yip-transitions.css"/>
     <link rel="stylesheet" href="css/yip-media-screens.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -57,6 +58,7 @@
             <div class="footer-group col">
               <ul class="row follow-social">
                 <li><a href="https://www.instagram.com/yipcarthq/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://chat.whatsapp.com/GF6ZfDQKf9j1RaVS0Q075a" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
                 <li><a href=" https://twitter.com/yipcarthq" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
                 <li><a href=" https://facebook.com/yipcarthq" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
               </ul> 

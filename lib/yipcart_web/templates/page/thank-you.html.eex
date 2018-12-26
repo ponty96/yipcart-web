@@ -1,14 +1,41 @@
-<div id="form-closeure-message" class="form-closure container-fluid">
-  <div class="form-closure-content col justify-content-center yip-image-back2">
-    <a href="<%= page_path(@conn, :index) %>"><i class="fa fa-arrow-circle-left"></i></a>
-    <div class="col align-items-center">
-    	<h1>Thank you <%= @name %> for joining</h1>
-      <p>You will receive a mail containing the app download link and everything you need to get started. In the mean time you can just follow the buzz on</p>
-      <ul class="row justify-content-center follow-social">
-      <li><a href="https://www.instagram.com/yipcarthq/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-      <li><a href=" https://twitter.com/yipcarthq" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
-      <li><a href=" https://facebook.com/yipcarthq" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-      </ul>
-    </div>
+  <div class="container-fluid navbar yip-blue-back1">
+    <nav class="navbar-expand-lg navbar-light container">
+      <a href="<%= page_path(@conn, :index) %>" class="header-logo">
+        <img src="images/header-logo.png" alt="">
+      </a>
+    </nav>
   </div>
-</div>
+
+  <section class="form-closure container-fluid yip-image-back2">
+    <div class="container">
+      <div class="form-closure-content justify-content-center">
+        <div class="col">
+          <h1>Thank you <%= @name %> for joining</h1>
+          <p>You will receive a mail containing the app download link and everything you need to get started.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="all-sections container-fluid join-whatsapp yip-image-back3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-6"><div class="col"><a href="https://chat.whatsapp.com/GF6ZfDQKf9j1RaVS0Q075a" target="_blank" class="whatsapp-image d-flex flex-row justify-content-center align-items-center"><i class="fa fa-whatsapp"></i></a></div></div>
+        <div class="col-sm-6">
+          <div class="col">
+            <h1>Meanwhile, tell us what you need</h1>
+            <div class="msg yip-whatsapp-chat-back">
+                <div class="bubble alt">
+                  <div class="txt">
+                    <span class="name alt">YipCart Team</span>
+                    <span class="timestamp">Today</span>
+                    <p class="message">Join our whatsapp group of merchants who have helped us be able to tailor YipCart to their unique needs by telling us what their businesses actually needs. Your input will be very useful.</p>
+                  </div>
+                </div>
+            </div>
+            <a href="https://chat.whatsapp.com/GF6ZfDQKf9j1RaVS0Q075a" target="_blank"><button class="yip-button2">Join whatsapp now</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
