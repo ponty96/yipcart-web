@@ -1,0 +1,85 @@
+
+.waiting-page{
+  padding: 11rem 1rem 7rem 1rem;
+}
+
+.waiting-page h3, .waiting-page p{
+  text-align: center;
+}
+.waiting-page h3{
+  font-size: 30pt;
+  letter-spacing: normal;
+  margin-bottom: 1rem;
+}
+.yip-form{
+  padding: 3rem;
+  margin: auto;
+  margin-bottom: 3rem;
+  max-width: 420px;
+}
+.yip-form input[type=text]{
+  background: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 0 0 rgba(0,0,0,0.18);
+  font-size: 11pt;
+  height: 50px;
+  padding: 1rem;
+  width: 100%;
+}
+.yip-form label{
+  color: #FFFFFF;
+  font-size: 13pt;
+  margin-bottom: .5rem; 
+}
+.input-block{
+  margin-bottom: 1.5rem;
+}
+.yip-form .yip-button{
+  height: 60px;
+  margin-top:1rem;
+  width: 100%;
+}
+.form-closure{
+  text-align: center;
+  background: #3668D3;
+  height: 100%;
+  position: fixed;
+  top: 0%;
+  z-index: 11;
+}
+.form-closure-content{
+  height: 100%;
+  padding: 6rem 0;
+}
+.form-closure h1{
+  color: #FFF;
+  font-size: 29pt;
+  margin-bottom: 2rem;
+}
+.form-closure p, .form-closure .fa{
+  color: #FFF;
+}
+.form-closure p{
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+  font-size: 13pt;
+  letter-spacing: normal;
+  width: 50%;
+}
+.form-closure .fa{
+  font-size: 40pt;
+}
+.form-closure .fa:hover{
+  transform: translateY(-3px);
+}
+.form-closure .fa-arrow-circle-left{
+  margin-bottom: 2rem;
+}
+.form-closure .fa-arrow-circle-left:hover{
+  transform: translateX(-3px);
+}
+#form-closeure-message{
+  top: 0;
+}

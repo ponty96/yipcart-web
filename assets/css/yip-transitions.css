@@ -1,0 +1,6 @@
+.yip-button, .fa{
+  transition: transform ease-in-out .1s;
+  -webkit-transition: transform ease-in-out .1s;
+  -ms-transition: transform ease-in-out .1s;
+  -moz-transition: transform ease-in-out .1s;
+}

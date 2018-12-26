@@ -1,0 +1,24 @@
+.yip-blue-back1{
+  background: #3668D3; 
+}
+.yip-blue-back2{
+  background: #D8F4FC; 
+}
+.yip-blue-back3{
+  background: #F7FEFF; 
+}
+.yip-lightgreen-back{
+  background: #DEFFF7; 
+}
+.yip-image-back{ 
+  background-image: url(../images/what-are-you-waiting-for.png);
+  -moz-background-image: url(../images/../images/what-are-you-waiting-for.png); 
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.yip-image-back2{ 
+  background-image: url(../images/patern.png);
+  -moz-background-image: url(../images/../images/patern.png); 
+  background-repeat: repeat;
+}
