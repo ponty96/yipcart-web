@@ -22,8 +22,20 @@ button:focus, input{
   max-width: 100%;
   height: auto;
 }
-.error {
-  color: blue;
+
+h2, .join-whatsapp h1{
+  font-size: 28pt;
+  color: #000000;
+  margin-bottom: 1.2rem;
+}
+
+p{
+  font-size: 11pt;
+  font-weight: 600;
+  color: #444444;
+  letter-spacing: 0.12px;
+  line-height: 25px;
+  margin-bottom: 1.5rem;
 }
 
 /*specific styles continue here*/
@@ -49,7 +61,7 @@ button:focus, input{
   margin-right: 2rem;
   margin-top: 0.8rem;
 }
-.yip-button{
+.yip-button, .yip-button2{
   background: #1CD442;
   border: none;
   border-radius: 5px;
@@ -62,13 +74,15 @@ button:focus, input{
   width: 216px;
   text-align: center;
 }
-.yip-button:active{
+.yip-button2{
+  background: #fff;
+  color: #1EBEA5;
+}
+.yip-button:active, .yip-button2:active{
   outline: none;
 }
-.yip-button:hover{
+.yip-button:hover, .yip-button2:hover{
   cursor: pointer;
-  background: #1CD442;
-  color: #000000;
   transform:translateX(3px); 
 }
 .yip-button:focus{
@@ -154,6 +168,45 @@ ul{
   color: #fff;
   letter-spacing: 0.1rem;
   margin-bottom: 3rem;
+}
+.join-whatsapp .whatsapp-image{
+  background: #1EBEA5;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 100pt;
+  height: 200px;
+  margin-bottom: 1rem;
+  width: 200px;
+}
+.join-whatsapp .whatsapp-image .fa{
+  color: #fff;
+  margin: 0;
+}
+.yip-whatsapp-chat-back{
+  border-radius: 8px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.yip-whatsapp-chat-back p{
+  margin-bottom: 0;
+}
+.name{
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-table;
+  margin: 0 0 4px 0;
+  color: #2ecc51;
+}
+.timestamp{
+  font-size: 11px;
+  margin: auto;
+  padding: 0 15px 0 0;
+  display: table;
+  float:right;
+  position: relative;
+  text-transform: uppercase; 
+  color: #999
 }
 footer{
   padding: 3rem 0;

@@ -72,7 +72,7 @@
     justify-content: center;
   }
   .form-closure p{
-    width: 80%;
+    width: auto;
   }
 
 } 
@@ -96,10 +96,8 @@
     width: 100%;
     margin-bottom: 3rem;
   }
-  h2 {
+  h2, .join-whatsapp h1 {
     font-size: 22pt;
-    color: #000000;
-    margin-bottom: 1.2rem;
   }
   .col-sm-8{
     padding-right: 0;
@@ -109,7 +107,7 @@
     margin-bottom: auto;
     display: none;
   }
-  .yip-button{
+  .yip-button, .yip-button2{
     width: 100%;
   }
   .hero-highlights-section li {
@@ -155,7 +153,11 @@
   .feature-highlights li {
     font-size: 14px;
   }
-
+  .join-whatsapp .whatsapp-image{
+    font-size: 50pt;
+    height: 100px;
+    width: 100%;
+  }
   footer {
     padding: 1rem 0;
   }

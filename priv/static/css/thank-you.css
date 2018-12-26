@@ -1,0 +1,33 @@
+.form-closure{
+  background: #189D7A;
+}
+.form-closure-content{
+  height: 100%;
+  padding: 8rem 0 3rem 0;
+}
+.form-closure h1{
+  color: #FFF;
+  font-size: 29pt;
+  margin-bottom: 2rem;
+}
+.form-closure p, .form-closure .fa{
+  color: #FFF;
+}
+.form-closure p{
+  margin-bottom: 2rem;
+  font-size: 13pt;
+  letter-spacing: normal;
+  width: 50%;
+}
+.form-closure .fa{
+  font-size: 40pt;
+}
+.form-closure .fa:hover{
+  transform: translateY(-3px);
+}
+.form-closure .fa-arrow-circle-left{
+  margin-bottom: 2rem;
+}
+.form-closure .fa-arrow-circle-left:hover{
+  transform: translateX(-3px);
+}
