@@ -30,7 +30,7 @@
               <ul>
                 <li class="row"><i class="fa fa-check"></i><span>An E-commerce website</span></li>
                 <li class="row"><i class="fa fa-check"></i><span>A social media marketing system</span></li>
-                <li class="row"><i class="fa fa-check"></i><span>A digital business managment suite</span></li>
+                <li class="row"><i class="fa fa-check"></i><span>A digital business management suite</span></li>
               </ul>
             </div>
             <div class="col justify-content-center"><a href="<%= page_path(@conn, :new) %>"><button class="yip-button">Show me</button></a></div>
