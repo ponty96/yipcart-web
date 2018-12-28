@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+  }
+  
+  @font-face {
+  font-family: 'bold';
+  src: url('../fonts/Montserrat-Bold.otf');
+  }
+  *
+  {
+    margin: 0;
+    padding: 0;
+  }
+  

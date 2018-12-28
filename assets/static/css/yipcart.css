@@ -1,0 +1,252 @@
+/*This styles are general----------*/
+a{
+  color: inherit;
+}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+.text-align-center{
+  text-align: center;
+}
+.container, .row{
+  padding: 0;
+}
+.block-tag{
+  margin: auto;
+}
+button:focus, input{
+  outline: none;
+}
+.all-sections img{
+  max-width: 100%;
+  height: auto;
+}
+
+h2, .join-whatsapp h1{
+  font-size: 28pt;
+  color: #000000;
+  margin-bottom: 1.2rem;
+}
+
+p{
+  font-size: 11pt;
+  font-weight: 600;
+  color: #444444;
+  letter-spacing: 0.12px;
+  line-height: 25px;
+  margin-bottom: 1.5rem;
+}
+
+/*specific styles continue here*/
+
+
+.navbar{
+  background: #3668D3;
+  height: 70px;
+  padding-top: .5rem;
+  position: fixed;
+  background: #3668D3;
+  box-shadow: 0 7px 11px 0 rgba(0,0,0,0.07);
+  z-index: 10;
+}
+.navbar-toggler{
+  border: none;
+  background: #fff;
+  margin-top: 10pt;
+  overflow: hidden;
+  transform: translateY(-7px);
+}
+.header-logo{
+  margin-right: 2rem;
+  margin-top: 0.8rem;
+}
+.yip-button, .yip-button2{
+  background: #1CD442;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 0 0 rgba(0,0,0,0.18);
+  font-size: 18px;
+  color: #000000;
+  height: 50px;
+  letter-spacing: normal;
+  margin: 0;
+  width: 216px;
+  text-align: center;
+}
+.yip-button2{
+  background: #fff;
+  color: #1EBEA5;
+}
+.yip-button:active, .yip-button2:active{
+  outline: none;
+}
+.yip-button:hover, .yip-button2:hover{
+  cursor: pointer;
+  transform:translateX(3px); 
+}
+.yip-button:focus{
+  outline: none;
+}
+.hero-section{
+  padding-top: 10rem;
+}
+.hero-section .first-row{
+  margin: auto auto 6.45rem auto;
+}
+.tagline{
+  margin-bottom: 2.5rem;
+}
+.tagline h1{
+  font-size: 35px;
+  color: #FFFFFF;
+  letter-spacing: 1pt;
+  width: 350pt;
+}
+.hero-highlights-section{
+  margin: auto;
+}
+.hero-highlights-section h3{
+  font-size: 21px;
+  color: #14FF45;
+  letter-spacing: normal;
+  margin: auto auto 18pt auto;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.hero-highlights-section li{
+  font-size: 11pt;
+  color: #fff;
+  letter-spacing: 0.5px;
+  margin-bottom: 13pt;
+}
+
+.call-to-join-testers p{
+  color: #fff;
+  font-size: 15pt;
+  letter-spacing: 1pt;
+  margin-bottom: 2rem;
+}
+.hero-highlights-section li .fa{
+  color: #14FF45;
+  font-size: 20pt;
+  margin-right: 15pt;
+  margin-left: 10pt;
+}
+.hero-image{
+  margin-bottom: -18.5rem;
+}
+.summary-section{
+  margin: 23rem auto 8rem auto;
+}
+
+.all-sections{
+  padding: 3rem 0;
+  overflow: hidden;
+}
+.all-sections .fa{
+  margin: auto 0.7rem auto 1.8rem;
+  color: #189D7A;
+}
+.feature-highlights{
+  margin-top: 1rem;
+}
+.feature-highlights li{
+  font-size: 15px;
+  color: #000;
+  letter-spacing: normal;
+  margin-bottom: 0.7rem
+}
+.call-to-join-testers{
+  height: 577px;
+  padding: 8rem 1.5rem;
+}
+.call-to-join-testers h1 {
+  color: #fff;
+  letter-spacing: 0.1rem;
+  margin-bottom: 3rem;
+}
+.join-whatsapp .whatsapp-image{
+  background: #1EBEA5;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 100pt;
+  height: 200px;
+  margin-bottom: 1rem;
+  width: 200px;
+}
+.join-whatsapp .whatsapp-image .fa{
+  color: #fff;
+  margin: 0;
+}
+.yip-whatsapp-chat-back{
+  border-radius: 8px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.yip-whatsapp-chat-back p{
+  margin-bottom: 0;
+}
+.name{
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-table;
+  margin: 0 0 4px 0;
+  color: #2ecc51;
+}
+.timestamp{
+  font-size: 11px;
+  margin: auto;
+  padding: 0 15px 0 0;
+  display: table;
+  float:right;
+  position: relative;
+  text-transform: uppercase; 
+  color: #999
+}
+footer{
+  padding: 3rem 0;
+}
+h4{
+  color: #666;
+}
+.footer-group{
+  margin: 1rem 0;
+}
+.footer-group li{
+  font-size: 12px;
+  color: #666666;
+  letter-spacing: 0.09px;
+  line-height: 23px;
+  margin-left: -15px;
+}
+.follow-social li{
+  font-size: 20pt;
+  margin-right: 1.5rem;
+  margin-left: 0;
+}
+.follow-social li:last-child{
+  margin-right: 0;
+}
+.footer-group a:hover{
+  color: #3668D3;
+}
+.footer-logo{
+  margin: 1rem 0 2rem 0;
+}
+.footer-group a:hover .fa-instagram{
+  color: #e4405f;
+}
+.footer-group a:hover .fa-whatsapp{
+  color: #1EBEA5;
+}
+.footer-group a:hover .fa-twitter-square{
+  color: #38A1F3;
+}
+.footer-group a:hover .fa-facebook-square{
+  color: #3b5999;
+}

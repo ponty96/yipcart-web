@@ -1,0 +1,28 @@
+.family,.yip-button,.yip-button2,h1,.hero-highlights-section h3,.follow-instagram,
+.hero-highlights-section li, h2, .all-section li,.feature-highlights, h4, .call-to-join-testers h2
+.footer-group li,input, .waiting-page h3, .yip-form label, p
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heavy, h2, h4{
+  font-family: bold;
+}
+.yip-button,.tagline h1, .waiting-page h3, .yip-form label
+.hero-highlights-section h3,.feature-highlights, .call-to-join-testers h1, .join-whatsapp h1{
+  font-weight: bold;
+}
+
+.medium,.follow-instagram{
+  font-weight: 700;
+}
+
+.regular, input, .hero-highlights-section li,
+.footer-group li,.waiting-page p
+{
+  font-weight: normal;
+}
+
+.call-to-join-testers p, .form-closure p{
+  font-weight: 300;
+}
