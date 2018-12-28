@@ -107,9 +107,6 @@
     margin-bottom: auto;
     display: none;
   }
-  .yip-button, .yip-button2{
-    width: 100%;
-  }
   .hero-highlights-section li {
     font-size: 13pt;
   }
@@ -179,7 +176,15 @@
   .all-sections .fa{
     margin: auto 0.2rem auto 1.8rem;
   }
-
+  .call-to-join-testers p, .call-to-join-testers h1{
+    text-align: center;
+    width: 100%;
+  }
+  .call-to-join-testers, .yip-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   /*-------waiting page------*/
   
   .waiting-page {
