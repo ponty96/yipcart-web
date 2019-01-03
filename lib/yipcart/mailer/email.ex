@@ -6,7 +6,7 @@ defmodule Yipcart.Email do
 	def send_email(%Entry{} = entry, :inflow) do
 		new_email(
 			from: "ayo.aregbede@yipcart.com",
-      to: "opeyemi.badmos@gmail.com",
+      to: "hello@yipcart.com",
       subject: "Waiting Customer",
 			text_body: "#{entry.email} with the business name #{String.capitalize(entry.business_name)} has been enlisted in the waiting list."
 		)
