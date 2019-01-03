@@ -16,7 +16,8 @@ defmodule YipcartWeb.PageController do
   def create(conn, %{"entry" => params}) do
     case Waiters.create_entry(params) do
       {:ok, entry} ->
-        Email.send_email(entry.email, entry.business_name)
+        Email.send_email(entry, :inflow)
+        Email.send_email(entry, :outflow)
         
         conn
         |> put_session(:entry, entry)
