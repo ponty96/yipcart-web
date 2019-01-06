@@ -87,8 +87,9 @@
             <p>Add new products to your inventory & instantly have them available to your customers on your social media channels</p>
           </div>
           <ul class="feature-highlights">
-            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Facebook</span></li>
             <li class="row align-items-center"><i class="fa fa-circle"></i><span>Instagram</span></li>
+            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Facebook</span></li>
+            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Whatsapp</span></li>
           </ul>
         </div>
       </div>
