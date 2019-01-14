@@ -2,13 +2,16 @@
   background: #3668D3; 
 }
 .yip-blue-back2{
-  background: #D8F4FC; 
+  background: rgb(242, 251, 255); 
+}
+.yip-blue-back4{
+  background: rgba(243,253,255,.2); 
 }
 .yip-blue-back3{
-  background: #F7FEFF; 
+  background: #FFF; 
 }
 .yip-lightgreen-back{
-  background: #DEFFF7; 
+  background: #F4FFFC; 
 }
 .yip-whatsapp-chat-back{
   background: #DCF8C6;

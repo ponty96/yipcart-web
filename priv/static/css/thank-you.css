@@ -1,17 +1,15 @@
-.form-closure{
-  background: #189D7A;
-}
+
 .form-closure-content{
   height: 100%;
   padding: 8rem 0 3rem 0;
 }
 .form-closure h1{
-  color: #FFF;
+  color: #000;
   font-size: 29pt;
   margin-bottom: 2rem;
 }
 .form-closure p, .form-closure .fa{
-  color: #FFF;
+  color: #444;
 }
 .form-closure p{
   margin-bottom: 2rem;

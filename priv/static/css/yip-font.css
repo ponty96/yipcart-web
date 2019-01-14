@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'regular';
-  src: url('../fonts/Montserrat-Regular.otf');
+  src: url('../font/Montserrat-Regular.otf');
   }
   
   @font-face {
   font-family: 'bold';
-  src: url('../fonts/Montserrat-Bold.otf');
+  src: url('../font/Montserrat-Bold.otf');
   }
   *
   {

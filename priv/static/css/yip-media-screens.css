@@ -26,10 +26,6 @@
     max-width: 100%;
     height: auto;
   }
-  .footer-logo img{
-    width: auto;
-    height: auto;
-  }
   .col-sm-6 {
     flex: 0 0 90%;
     max-width: 100%;
@@ -91,7 +87,6 @@
   }
   .tagline h1 {
     font-size: 45px;
-    color: #FFFFFF;
     letter-spacing: 1pt;
     width: 100%;
     margin-bottom: 3rem;
@@ -115,7 +110,7 @@
   }
   .summary-section {
     margin: 1rem auto;
-    padding: 2rem 1rem;
+    padding: 0.5rem 1rem;
   }
   .hero-section .first-row{
     margin: 2rem auto;
@@ -142,8 +137,6 @@
     margin-bottom: 1rem;
   }
   .hero-highlights-section h3 {
-      font-size: 21px;
-      color: #14FF45;
       letter-spacing: normal;
       margin: auto auto 18pt -15pt;
   }
@@ -201,9 +194,6 @@
     margin-bottom: 0rem;
   }
   .yip-form input[type=text]{
-    background: #FFFFFF;
-    border: none;
-    border-radius: 5px;
     font-size: 11pt;
     height: 50px;
     padding: 1rem;

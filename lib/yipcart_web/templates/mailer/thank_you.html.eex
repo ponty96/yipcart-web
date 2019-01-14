@@ -93,8 +93,8 @@
 								<tr>
 									<td>
 										<center>
-											<a href="https://www.yipcart.com" target="_blank">
-												<img src="assets/sm-yipcart-logo.svg" width="114" height="40" alt="InVision" class="CToWUd">
+											<a href="https://yipcart.com" target="_blank">
+												<img src="https://s3.us-east-2.amazonaws.com/yipcart-static-resources/sm-yipcart-logo.svg" width="114" height="40" alt="YipCart" class="CToWUd">
 											</a>
 										</center>
 									</td>
@@ -134,10 +134,8 @@
 											<!-- Social Medias -->
 											<tr>
 												<td>
-													<a href="https://facebook.com/yipcarthq" target="_blank" style="text-decoration: none !important;">
-														<span  width="50" height="50" alt="Facebook Logo">
-															<i class="fab fa-facebook-f" style="font-size: 15px;color: black;border: 1.5px solid #dcdee2;height: 47px;border-radius: 100%;width: 47px;display: flex;align-items: center;justify-content: center;"></i>
-														</span>
+													<a href="#" target="_blank">
+														<img src="https://s3.us-east-2.amazonaws.com/yipcart-static-resources/facebook-footer-icon.png" width="50" height="50" alt="Facebook Logo">
 													</a>
 												</td>
 
@@ -146,20 +144,16 @@
 												<td></td>
 
 												<td>
-													<a href="https://twitter.com/yipcarthq" target="_blank" style="text-decoration: none !important;">
-														<span  width="50" height="50" alt="Twitter Logo">
-															<i class="fab fa-twitter" style="font-size: 15px;color: black;border: 1.5px solid #dcdee2;height: 47px;border-radius: 100%;width: 47px;display: flex;align-items: center;justify-content: center;"></i>
-														</span>
+													<a href="#" target="_blank">
+														<img src="https://s3.us-east-2.amazonaws.com/yipcart-static-resources/twitter-footer-icon.png" width="50" height="50" alt="Twitter Logo">
 													</a>
 												</td>
 
 												<td style="font-size:1px;width:32px;height:30px" height="30" width="32">&nbsp;</td>
 
 												<td>
-													<a href="#" target="_blank" style="text-decoration: none !important;">
-														<span  width="50" height="50" alt="LinkedIn Logo">
-															<i class="fab fa-linkedin-in" style="font-size: 15px;color: black;border: 1.5px solid #dcdee2;height: 47px;border-radius: 100%;width: 47px;display: flex;align-items: center;justify-content: center;"></i>
-														</span>
+													<a href="#" target="_blank">
+														<img src="https://s3.us-east-2.amazonaws.com/yipcart-static-resources/linkedin-footer-icon.png" width="50" height="50" alt="LinkedIn Logo">
 													</a>
 												</td>
 											</tr>
@@ -186,7 +180,7 @@
 											<tr style="display: flex;align-items: center;justify-content: center;">
 												<td style="display:inline-flex;text-align:center" align="center">
 													<a href="#" style="display:block;font-size:10px!important;text-decoration:none!important;color:#9fa1a7!important;font-weight:700!important;line-height:24px!important" target="_blank">VISIT&nbsp;YIPCART.COM</a>
-													<img src="assets/vertical-line-footer-icon.png" width="34" height="24" style="vertical-align:bottom;">
+													<img src="https://s3.us-east-2.amazonaws.com/yipcart-static-resources/vertical-line-footer-icon.png" width="34" height="24" style="vertical-align:bottom;">
 													<a href="#" style="display:block;font-size:10px!important;text-decoration:none!important;color:#9fa1a7!important;font-weight:700!important;line-height:24px!important" target="_blank">UNSUBSCRIBE</a>
 												</td>
 											</tr>
