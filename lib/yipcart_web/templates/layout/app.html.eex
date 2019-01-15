@@ -46,7 +46,7 @@
       <div class="container">
         <div class="row">
           <a href="<%= page_path(@conn, :index) %>" class="col-3 footer-logo">
-            <img src="images/footer-logo.png" alt="">
+            <img src="images/yipcart-logo-footer.svg" alt="YipCart logo">
           </a>
           <div class="col-sm-3">
             <div class="footer-group-label">

@@ -1,12 +1,12 @@
 
-  <div class="container-fluid navbar yip-blue-back1">
+  <div class="container-fluid navbar">
     <nav class="navbar-expand-lg navbar-light container">
       <a href="<%= page_path(@conn, :index) %>" class="header-logo">
-        <img src="images/header-logo.png" alt="">
+        <img src="images/yipcart-logo.svg" alt="YipCart logo">
       </a>
     </nav>
   </div>
-  <section class="container-fliud yip-blue-back2">
+  <section class="container-fliud yip-image-back2 yip-blue-back4">
     <div class="container waiting-page">
       <div class="page-tilte">
         <h3>Let's send it to you</h3>
