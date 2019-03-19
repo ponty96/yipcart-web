@@ -50,22 +50,11 @@
           </a>
           <div class="col-sm-3">
             <div class="footer-group-label">
-              <h4>Lagos</h4>
-            </div>
-            <div class="footer-group col-sm-12">
-              <ul>
-                <li>4th Avenue, 401 Road, E Close, Block 4, Flat 5, Festac Town, Lagos</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="footer-group-label">
               <h4>Follow</h4>
             </div>
             <div class="footer-group col">
               <ul class="row follow-social">
                 <li><a href="https://www.instagram.com/yipcarthq/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="https://chat.whatsapp.com/Cf9cirPtJjYL1PcKFKq22V" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
                 <li><a href="https://twitter.com/yipcarthq" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
                 <li><a href="https://facebook.com/yipcarthq" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
               </ul> 

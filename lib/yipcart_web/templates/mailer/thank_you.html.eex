@@ -42,16 +42,10 @@
 																	<tbody>
 																	<tr>
 																		<td style="padding: 50px 0 0 0;color: rgb(89,89,89)">
-																			<p>Hello <%= business_name %>,</p>
-																			<p>Thank you for subcribing to our waiting list.</p>
-																			<p>As soon as it is ready, we will send you the app download link and everything you need to get started. In the meantime, 
-																			we are currently testing the app.</p>
-																			<a href="https://chat.whatsapp.com/GF6ZfDQKf9j1RaVS0Q075a" target="_blank">
-																				<p>Click here to join other merchants who have been using the test version.</p>
-																			</a>
-																			
+																			<p>Hello!</p>
+																			<p>Thank you for subscribing to our waiting list. We're really happy to have you! Click the link below to join our Whatsapp community of Merchants already using our app.</p>
+																			<br><a href="https://chat.whatsapp.com/CTEc3VfxSucJw56gOT06GF" target="_blank">https://chat.whatsapp.com/CTEc3VfxSucJw56gOT06GF</a>
 																			<p>Thank you.</p>
-																			<p>Ayomide A.<br/>CEO</p>
 																		</td>
 																	</tr>
 																	</tbody>
@@ -166,9 +160,6 @@
 
 								<tr>
 									<td colspan="3" style="font-size:1px;height:50px" height="50">&nbsp;</td>
-								</tr>
-								<tr>
-									<td style="font-size:14px!important;color:#737881;font-weight:400;text-align:center" align="center">YipCart, Road Y, Off O”dola Ave, Oba-Ile, Ondo, NG</td>
 								</tr>
 								<tr>
 									<td style="height:0;font-size:14px!important;color:#737881;font-weight:300;text-align:center" height="0" align="center">&nbsp;</td>
