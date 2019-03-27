@@ -15,7 +15,7 @@ defmodule Yipcart.Email do
 
 	def send_email(%Entry{} = entry, :outflow) do
 		new_email(
-			from: "hello@yipcart.com",
+			from: "no-reply@yipcart.com",
 			to: "#{entry.email}",
 			subject: "You Have Joined Our Waiting List",
 			html_body: eval_file(entry.business_name)
