@@ -17,6 +17,74 @@
   </head>
 
   <body>
+    <!-- Navigation -->
+    <div>
+	    <nav>
+		    <div class="container-fluid px-0">
+			    <div class="ds-nav--wrapper">
+				    <div class="ds-nav--logo">
+					    <a href="<%= page_path(@conn, :index) %>">
+						    <img src="images/sm-yipcart-logo.svg" class="cls-1"/>
+						    <img src="images/sm-yipcart-logo.svg" class="cls-2"/>
+					    </a>
+				    </div>
+
+				    <div class="ds-nav--link-wrapper">
+					    <div class="ds-nav--link-item">
+						    <a href="<%= page_path(@conn, :price) %>" class="ds-nav--link">Pricing</a>
+					    </div>
+
+					    <div class="ds-nav--link-item">
+						    <a href="#" class="ds-nav-button">Try for free</a>
+					    </div>
+				    </div>
+			    </div>
+		    </div>
+	    </nav>
+	    <!-- Mobile Nav -->
+	    <nav class="sr-nav--mobile">
+		    <a href="<%= page_path(@conn, :index) %>" class="sr-nav--mobile__link">
+			    <img src="images/sm-yipcart-logo.svg" style="width: 9rem">
+		    </a>
+
+		    <div class="d-flex align-items-center">
+			    <div class="sr-nav--mobile__burger">
+				    <div id="menu-reveal">
+					    <div id="sr-sideNav--mobile__icon" class="">
+						    <span class=""></span>
+						    <span class=""></span>
+						    <span class=""></span>
+						    <span class=""></span>
+						    <span class=""></span>
+						    <span class=""></span>
+					    </div>
+				    </div>
+			    </div>
+		    </div>
+	    </nav>
+
+	    <!-- Side Nav -->
+	    <div id="sr-sideNav--mobile">
+		    <div class="sr-sideNav--mobile__wrapper">
+			    <ul class="sr-sideNav--mobile__ul">
+				    <li class="sr-sideNav--mobile__li"><a href="<%= page_path(@conn, :index) %>">Home</a></li>
+				    <li class="sr-sideNav--mobile__li"><a href="<%= page_path(@conn, :price) %>">Pricing</a></li>
+			    </ul>
+
+			    <div class="appstore-btns">
+				    <a href="/" title="Download on the App Store" target="_blank" class="app-button iphone" style="background-image: url(https://s3.us-east-2.amazonaws.com/yipcart-static-resources/download-on-appstore.svg)">
+				    </a>
+				    <a href="https://play.google.com/store/apps/details?id=com.yipcart.yipcart" title="Get It the Google Store" target="_blank" class="app-button android" style="background-image: url(https://s3.us-east-2.amazonaws.com/yipcart-static-resources/download-on-google-play.png)">
+				    </a>
+			    </div>
+		    </div>
+	    </div>
+
+	    <!-- Mobile Nav Mask -->
+	    <div id="sr-sideNav--mobile__mask"></div>
+    </div>
+    <!-- Navigation End-->
+    
     <main role="main">
       <%= render @view_module, @view_template, assigns %>
     </main>
