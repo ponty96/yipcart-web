@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gBAAiB;EACf,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,MAAM;EACd,cAAc,EAAE,CAAC;EACjB,eAAe,EAAE,QAAQ;EACzB,wBAAwB,EAAE,IAAI",
+"sources": ["pricing-table.scss"],
+"names": [],
+"file": "pricing-table.css"
+}

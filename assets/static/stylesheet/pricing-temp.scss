@@ -1,0 +1,78 @@
+
+
+.is-transitioning {
+  display: block !important;
+  visibility: visible !important;
+}
+
+.js-focus-hidden:focus {
+  outline: none;
+}
+
+:lang(ja) {
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  -webkit-font-feature-settings: normal;
+  font-feature-settings: normal;
+  -webkit-font-variant-ligatures: normal;
+  font-variant-ligatures: normal;
+}
+
+
+
+img {
+  max-width: 100%;
+}
+
+a img {
+  border: 0;
+}
+
+img[data-srcset] {
+  opacity: 0;
+  transition: opacity 150ms linear;
+  &.lazyloaded {
+    opacity: 1;
+  }
+}
+
+
+.section {
+  padding: 3.75em 0;
+  .section {
+    &:first-child:not(:only-child) {
+      padding-top: 0;
+    }
+    &:last-child:not(:only-child) {
+      padding-bottom: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 46.875em) {
+  .section {
+    padding-top: 5.625em;
+    padding-bottom: 5.625em;
+  }
+}
+
+.js-window-loading {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.js-is-loaded .js-window-loading {
+  opacity: 1;
+}
+
+.display--mobile {
+  display: none !important;
+}
+
+@media screen and (max-width: 46.8125em) {
+  .display--mobile {
+    display: block !important;
+  }
+  .hide--mobile {
+    display: none !important;
+  }
+}

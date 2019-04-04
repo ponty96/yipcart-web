@@ -1,0 +1,313 @@
+<!-- Navigation -->
+<div>
+	<nav>
+		<div class="container-fluid px-0">
+			<div class="ds-nav--wrapper">
+				<div class="ds-nav--logo">
+					<a href="../index.html">
+						<img src="images/sm-yipcart-logo.svg" class="cls-1"/>
+						<img src="images/sm-yipcart-logo.svg" class="cls-2"/>
+					</a>
+				</div>
+
+				<div class="ds-nav--link-wrapper">
+					<div class="ds-nav--link-item">
+						<a href="#" class="ds-nav--link">Pricing</a>
+					</div>
+
+					<div class="ds-nav--link-item">
+						<a href="../views/" class="ds-nav-button">Try for free</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- Mobile Nav -->
+	<nav class="sr-nav--mobile">
+		<a href="../index.html" class="sr-nav--mobile__link">
+			<img src="../assets/images/sm-yipcart-logo.svg" style="width: 9rem">
+		</a>
+
+		<div class="d-flex align-items-center">
+			<div class="sr-nav--mobile__burger">
+				<div id="menu-reveal">
+					<div id="sr-sideNav--mobile__icon" class="">
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Side Nav -->
+	<div id="sr-sideNav--mobile">
+		<div class="sr-sideNav--mobile__wrapper">
+			<ul class="sr-sideNav--mobile__ul">
+				<li class="sr-sideNav--mobile__li"><a href="../index.html">Home</a></li>
+				<li class="sr-sideNav--mobile__li"><a href="#">Pricing</a></li>
+			</ul>
+
+			<div class="appstore-btns">
+				<a href="/" title="Download on the App Store" target="_blank" class="app-button iphone" style="background-image: url(https://s3.us-east-2.amazonaws.com/yipcart-static-resources/download-on-appstore.svg)">
+				</a>
+				<a href="https://play.google.com/store/apps/details?id=com.yipcart.yipcart" title="Get It the Google Store" target="_blank" class="app-button android" style="background-image: url(https://s3.us-east-2.amazonaws.com/yipcart-static-resources/download-on-google-play.png)">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Mobile Nav Mask -->
+	<div id="sr-sideNav--mobile__mask"></div>
+</div>
+<!-- Navigation End-->
+
+<div id="ycPageContainer">
+	<main role="main" style="background-color: #F7F7F7">
+
+		<section class="yc-price">
+			<article class="container">
+				<div class="section-heading mb-0">
+					<h1>Choose the right plan for your business</h1>
+					<p class="section-heading__subhead mb-0">Start your free trial. No credit card required.</p>
+					<div class="btn-group btn-group-toggle mb-0" data-toggle="buttons">
+						<label class="yc-btn-toggle btn btn-secondary active">
+							<input type="radio" name="options" id="option1" autocomplete="off" checked> Annual Billing
+						</label>
+						<label class="yc-btn-toggle btn btn-secondary">
+							<input type="radio" name="options" id="option2" autocomplete="off"> Monthly Billing
+						</label>
+					</div>
+					<p class="mt-0 text-muted">Save by paying annually</p>
+				</div>
+			</article>
+		</section>
+
+		<section class="yc-price-plan">
+			<article class="container">
+				<div class="row">
+					<div class="col-md-10 mx-auto col-12">
+						<div class="pricing-table">
+
+							<div class="row no-gutters">
+								<div class="col-md-4">
+									<div class="pricing-plan lite-plan">
+										<h4 class="price-plan-name">Lite</h4>
+										<div class="price-plan-lockup-container">
+											<div class="super currency-symbol symbol">₦</div>
+
+											<div class="price-plan-lockup">
+												<div class="price-plan-lockup-number-and-schedule">
+													<div class="price-plan-lockup-number amt amount annual">1,440</div>
+												</div>
+
+												<div class="price-plan-summary">All the basics for starting a new business</div>
+											</div>
+										</div>
+
+										<ul class="price-plan-feature-list" data-price-plan="commerce:0">
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Online Store</span>
+												</div>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Free SSL Certificate</span>
+												</div>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Task / Reminders</span>
+												</div>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Referrals</span>
+												</div>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Process orders</span>
+												</div>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Inventory</span>
+												</div>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Expense Tracking</span>
+												</div>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Staff Accounts</span>
+												</div>
+												<div class="price-plan-feature-item-sub">1 user</div>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Follow up with customers</span>
+												</div>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Shipping Zones</span>
+												</div>
+											</li>
+
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="pricing-plan basic-plan">
+										<h4 class="price-plan-name">Basic</h4>
+										<div class="price-plan-lockup-container">
+											<div class="super currency-symbol symbol">₦</div>
+
+											<div class="price-plan-lockup">
+												<div class="price-plan-lockup-number-and-schedule">
+													<div class="price-plan-lockup-number amt amount annual">3,600</div>
+												</div>
+
+												<div class="price-plan-summary">Everything you need to get your business off the ground.</div>
+											</div>
+										</div>
+
+										<ul class="price-plan-feature-list" data-price-plan="commerce:0">
+											<li class="price-plan-feature-item d-flex align-items-center price-plan-feature-item-heading">
+												<i class="material-icons">done</i>
+												<span class=" d-inline-block">All features from the LITE Plan</span>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Review Store Performance</span>
+												</div>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Task / Reminders</span>
+												</div>
+												<div class="price-plan-feature-item-sub">Integrate with Google Calendar</div>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Product Collection</span>
+												</div>
+												<div class="price-plan-feature-item-sub">Coming soon</div>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Discount Codes</span>
+												</div>
+												<div class="price-plan-feature-item-sub">Coming soon</div>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Referrals</span>
+												</div>
+												<div class="price-plan-feature-item-sub">Coming soon</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="pricing-plan advance-plan">
+										<h4 class="price-plan-name">Advance</h4>
+										<div class="price-plan-lockup-container">
+											<div class="currency-symbol">₦</div>
+
+											<div class="price-plan-lockup">
+												<div class="price-plan-lockup-number-and-schedule">
+													<div class="price-plan-lockup-number amt amount annual">10,800</div>
+												</div>
+
+												<div class="price-plan-summary">Advanced features as your business grows.</div>
+											</div>
+										</div>
+
+										<ul class="price-plan-feature-list" data-price-plan="commerce:0">
+											<li class="price-plan-feature-item d-flex align-items-center price-plan-feature-item-heading">
+												<i class="material-icons">done</i>
+												<span class=" d-inline-block">All features from the Basic Plan</span>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Staff Account</span>
+												</div>
+												<div class="price-plan-feature-item-sub">3 Users on default / $9.99 Extra seat</div>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Multiple Stores</span>
+												</div>
+												<div class="price-plan-feature-item-sub">Create up to 15 stores</div>
+											</li>
+
+											<li class="price-plan-feature-item">
+												<div class="price-plan-feature-item-row">
+													<i class="material-icons">done</i>
+													<span class="d-inline-block">Website Themes</span>
+												</div>
+												<div class="price-plan-feature-item-sub">Access to unlimited premium themes</div>
+											</li>
+
+										</ul>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="mt-5">
+							<div class="card">
+								<a href="" class="btn bg-primary text-white p-2 font-weight-bold">Start For Free!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+	</main>

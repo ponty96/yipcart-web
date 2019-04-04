@@ -17,9 +17,7 @@ defmodule YipcartWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
-    get "/waiting", PageController, :new 
-    post "/waiting", PageController, :create
-    get "/thank-you", PageController, :thank
+    get "/price", PageController, :price
   end
 
   # Other scopes may use custom stacks.

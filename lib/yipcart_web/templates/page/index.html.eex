@@ -1,130 +1,282 @@
+<!-- Navigation -->
+<div>
+	<nav>
+		<div class="container-fluid px-0">
+			<div class="ds-nav--wrapper">
+				<div class="ds-nav--logo">
+					<a href="#">
+						<img src="images/sm-yipcart-logo.svg" class="cls-1"/>
+						<img src="images/sm-yipcart-logo.svg" class="cls-2"/>
+					</a>
+				</div>
 
-  <div class="container-fluid navbar">
-    <nav class="navbar-expand-lg navbar-light container">
-      <a href="<%= page_path(@conn, :index) %>" class="header-logo">
-        <img src="images/yipcart-logo.svg" alt="YipCart logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <span class="navbar-nav mr-auto"></span>
-        <a href="<%= page_path(@conn, :new) %>">
-          <button class="yip-button">I want a demo</button>
-        </a>
-      </div>
-    </nav>
-  </div>
-  <section class="hero-section container-fluid yip-image-back2 yip-blue-back4">
-    <div class="container">
-      <div class="row align-items-center first-row">
-        <div class="col-sm-6">
-          <div class="tagline">
-            <h1>Sell with ease to everyone, everywhere, everytime</h1>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="hero-highlights-section">
-            <div class="col">
-              <h3>Download one app & instantly own</h3>
-              <ul>
-                <li class="row"><i class="fa fa-check"></i><span>An E-commerce website</span></li>
-                <li class="row"><i class="fa fa-check"></i><span>A social media marketing system</span></li>
-                <li class="row"><i class="fa fa-check"></i><span>A digital business management suite</span></li>
-              </ul>
-            </div>
-            <div class="col justify-content-center"><a href="<%= page_path(@conn, :new) %>"><button class="yip-button">Show me</button></a></div>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div>
-          <img src="images/hero-image.png" class="hero-image" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="summary-section container-fluid" id="about-yipcart">
-    <div class="container">
-      <div class="col-sm-8">
-        <div class="col">
-          <h2>One app to rule them all</h3>
-          <p>One mobile console to run every aspect of your business, from inventory and customer management to marketing, sales, and everything in between.</p>
-        </div>
-        <div class="col"><a href="<%= page_path(@conn, :new) %>"><button class="yip-button">I want to see it</button></a></div>
-      </div>
-    </div>
-  </section>
-  <section class="all-sections container-fluid yip-blue-back2">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-sm-6">
-          <img src="images/webstore.png" alt="">
-        </div>
-        <div class="col-sm-6">
-          <div class="col">
-            <h2>Sell to everyone from your own E-commerce website</h3>
-            <p>Install Yipcart & instantly own an E-commerce website, allowing your customers view your product & services online, place orders & make payments to your account from anywhere, at anytime.</p>
-          </div>
-          <ul class="feature-highlights">
-            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Get order notifications on your app</span></li>
-            <li class="row align-items-center"><i class="fa fa-circle"></i><span>pay on delivery integrated</span></li>
-            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Instant e-invoice & reciept to customers</span></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="all-sections container-fluid yip-blue-back3">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-sm-6 order-last">
-          <img src="images/social-media.png" alt="">
-        </div>
-        <div class="col-sm-6">
-          <div class="col">
-            <h2>Multi-channel Social media marketing</h3>
-            <p>Add new products to your inventory & instantly have them available to your customers on your social media channels</p>
-          </div>
-          <ul class="feature-highlights">
-            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Instagram</span></li>
-            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Facebook</span></li>
-            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Whatsapp</span></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="all-sections container-fluid yip-lightgreen-back">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-sm-6">
-          <img src="images/business-operations.png" alt="">
-        </div>
-        <div class="col-sm-6">
-          <div class="col">
-            <h2>Your entire business operation in the palm of your hand</h3>
-            <p>From your mobile device, Yipcart allows you to smoothly manage your inventory, customer relations, cross-platform sales & marketing, invoice, reciepts and expenses. Get monthly analysis on income, customer base growth and product performance.</p>
-          </div>
-          <ul class="feature-highlights">
-            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Re-stock notification</span></li>
-            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Set featured products for your website</span></li>
-            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Social media hash tags for optimized search</span></li>
-            <li class="row align-items-center"><i class="fa fa-circle"></i><span>Customers transaction history</span></li>
-            <li class="row align-items-center"><i class="fa fa-circle"></i><span>View your daily income as you sell</span></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="container-fluid yip-image-back call-to-join-testers">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-sm-6">
-          <p>Try Yipcart now</p>
-          <h1>Join our growing community of early merchants</h1>
-          <a href="<%= page_path(@conn, :new) %>"><button class="yip-button">Request a demo</button></a>
-        </div>
-      </div>
-    </div>
-  </section>
+				<div class="ds-nav--link-wrapper">
+					<div class="ds-nav--link-item">
+						<a href="views/price.html" class="ds-nav--link">Pricing</a>
+					</div>
+
+					<div class="ds-nav--link-item">
+						<a href="views/" class="ds-nav-button">Try for free</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- Mobile Nav -->
+	<nav class="sr-nav--mobile">
+		<a href="index.html" class="sr-nav--mobile__link">
+			<img src="images/sm-yipcart-logo.svg" style="width: 9rem">
+		</a>
+
+		<div class="d-flex align-items-center">
+			<div class="sr-nav--mobile__burger">
+				<div id="menu-reveal">
+					<div id="sr-sideNav--mobile__icon" class="">
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Side Nav -->
+	<div id="sr-sideNav--mobile">
+		<div class="sr-sideNav--mobile__wrapper">
+			<ul class="sr-sideNav--mobile__ul">
+				<li class="sr-sideNav--mobile__li"><a href="index.html">Home</a></li>
+				<li class="sr-sideNav--mobile__li"><a href="views/price.html">Pricing</a></li>
+			</ul>
+
+			<div class="appstore-btns">
+				<a href="/" title="Download on the App Store" target="_blank" class="app-button iphone" style="background-image: url(https://s3.us-east-2.amazonaws.com/yipcart-static-resources/download-on-appstore.svg)">
+				</a>
+				<a href="https://play.google.com/store/apps/details?id=com.yipcart.yipcart" title="Get It the Google Store" target="_blank" class="app-button android" style="background-image: url(https://s3.us-east-2.amazonaws.com/yipcart-static-resources/download-on-google-play.png)">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Mobile Nav Mask -->
+	<div id="sr-sideNav--mobile__mask"></div>
+</div>
+<!-- Navigation End-->
+
+<div id="ycPageContainer">
+	<main role="main">
+
+		<section class="yc-hero" style="background-color: #ECECEC">
+			<div class="p-5">
+				<section class="">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 mx-auto">
+								<strong class="">Sign up with YipCart</strong>
+								<h1 class="heading--1">Your product’s future <br> could be hiding in your data</h1>
+								<div class="mt-4">
+									<a href="" class="btn bg-primary text-white">Get Started</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+
+		<section class="yc-home__features pb-0 bg-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 yc-valign__middle order-2 order-md-1">
+						<div class="yc-image ">
+							<img src="images/svg/sell_everywhere.svg" class="w-100" alt="" style="z-index: 1; position: relative">
+						</div>
+					</div>
+
+					<div class="col-md-5 yc-align__left ml-auto yc-valign__middle order-1 order-md-2">
+						<div>
+							<pre class="yc-eyebrow yc-eyebrow__primary">Flexibility</pre>
+							<h1>Sell - everywhere</h1>
+							<p>With YipCart, sell your products to customers anywhere - through your e-commerce website, in “DMs”, on social media and in person.</p>
+							<div class="yc-feature__benefits">
+								<ul class="yc-feature__benefits-wrapper yc-feature__benefits-green">
+									<li class="yc-feature__benefits-item">E-commerce website</li>
+									<li class="yc-feature__benefits-item">Online payment</li>
+									<li class="yc-feature__benefits-item">intuitive inventory</li>
+								</ul>
+
+								<ul class="yc-feature__benefits-wrapper yc-feature__benefits-green">
+									<li class="yc-feature__benefits-item">instant invoice</li>
+									<li class="yc-feature__benefits-item">order notification</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="yc-home__features bg-white pb-0">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-5 mr-auto yc-align__left yc-valign__middle">
+						<div>
+							<pre class="yc-eyebrow yc-eyebrow__primary">Accountability</pre>
+							<h1>Track your income and expenses</h1>
+							<p>Managing and viewing details of your income and expenses is now easier. YipCart allows you build an accountable business.</p>
+							<div class="yc-feature__benefits">
+								<ul class="yc-feature__benefits-wrapper yc-feature__benefits-green">
+									<li class="yc-feature__benefits-item">View daily, weekly and monthly sales / income report</li>
+									<li class="yc-feature__benefits-item">Record and understand your business expenses.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 yc-valign__middle">
+						<div class="yc-image">
+							<img src="images/svg/income_expense.svg" class="w-100" alt="" style="z-index: 1; position: relative">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="yc-home__features pb-0 bg-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 yc-valign__middle order-2 order-md-1">
+						<div class="yc-image ">
+							<img src="images/svg/marketing.svg" class="w-100" alt="" style="z-index: 1; position: relative">
+						</div>
+					</div>
+
+					<div class="col-md-5 yc-align__left ml-auto yc-valign__middle order-1 order-md-2">
+						<div>
+							<pre class="yc-eyebrow yc-eyebrow__primary">Be Informed</pre>
+							<h1>Market your business</h1>
+							<p>How best can you get customers? Where do you get most prospects from? Don’t assume! YipCart helps you understand this and much more.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="yc-home__features bg-white pb-0">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-5 mr-auto yc-align__left yc-valign__middle">
+						<div>
+							<pre class="yc-eyebrow yc-eyebrow__primary">Communication</pre>
+							<h1>Contact</h1>
+							<p>Build better relationships with your audience, convert prospects and create loyal customers. With the right information at your finger tips, get insights on your customers’ activities and be intentional on your communication.</p>
+							<div class="yc-feature__benefits">
+								<ul class="yc-feature__benefits-wrapper yc-feature__benefits-green">
+									<li class="yc-feature__benefits-item">View and understand contact buying / shopping history and behaviour </li>
+									<li class="yc-feature__benefits-item">Automatically / manually label contacts as prospects, leads, best buyers e.t.c</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 yc-valign__middle">
+						<div class="yc-image">
+							<img src="images/svg/contact.svg" class="w-100" alt="" style="z-index: 1; position: relative">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="yc-home__features pb-0 bg-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 yc-valign__middle order-2 order-md-1">
+						<div class="yc-image ">
+							<img src="images/svg/credit_management.svg" class="w-100" alt="" style="z-index: 1; position: relative">
+						</div>
+					</div>
+
+					<div class="col-md-5 yc-align__left ml-auto yc-valign__middle order-1 order-md-2">
+						<div>
+							<pre class="yc-eyebrow yc-eyebrow__primary">Sustainability</pre>
+							<h1>Credit Management</h1>
+							<p>Payment plan builds relationships but bad debtors can ruin a business.</p>
+							<div class="yc-feature__benefits">
+								<ul class="yc-feature__benefits-wrapper yc-feature__benefits-green">
+									<li class="yc-feature__benefits-item">Remind customers of outstanding payment</li>
+									<li class="yc-feature__benefits-item">Limit how much a customer can owe your business</li>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="yc-home__features pb-0 bg-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-8 mx-auto">
+						<h1>All projects begins with a plan</h1>
+						<p>Don’t forget to reach out to an old customer, or to make that social media post or renovate your store. Our task planner, reminds you at the right time and keeps you and your staffs organized.</p>
+					</div>
+
+					<div class="col-12 col-md-8 mx-auto mt-4">
+						<div class="yc-image ">
+							<img src="images/svg/planner.svg" class="w-100" alt="" style="z-index: 1; position: relative">
+						</div>
+					</div>
+				</div>
+
+				<div class="row my-5">
+					<div class="col-md-4">
+						<div class="">
+							<img src="images/svg/loader.svg" style="width: 100%; max-height: 2rem; max-width: 2rem; margin-bottom: 1rem"/>
+							<h4 class="yc-title-small">Don't forget special days</h4>
+							<p class="mt-0">Increase retention by creating reminders for customers’ birthdays, festive periods and holidays.</p>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="">
+							<img src="images/svg/clipboard.svg" style="width: 100%; max-height: 2rem; max-width: 2rem; margin-bottom: 1rem"/>
+							<h4 class="yc-title-small">Assign tasks with confidence</h4>
+							<p class="mt-0">Associate tasks with orders, invoices and customer. Never forget to make that delivery ever again.</p>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="">
+							<img src="images/svg/calendar.svg" style="width: 100%; max-height: 2rem; max-width: 2rem; margin-bottom: 1rem"/>
+							<h4 class="yc-title-small">Sync with your calendar</h4>
+							<p class="mt-0">Create marketing plans for you and your staffs and connect with old customer using your calendar.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="yc-cta-home">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 mx-auto">
+						<strong class="text-white">Sign up for YipCart</strong>
+						<h2 class="text-white">Your product’s future <br> could be hiding in your data</h2>
+						<div class="">
+							<a class="btn">Get Started</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</div>

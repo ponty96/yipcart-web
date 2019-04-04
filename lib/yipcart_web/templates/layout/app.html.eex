@@ -4,37 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Yipcart | The easiest way to sell online and offline</title>
     <meta name="generator" content="SEOmatic">
     <meta name="keywords" content="sell easily online and offline, buy, buy online, sell, sell online, sell offline, trade, sell on instagram, sell on social media, e-commerce, payments, africa, nigeria, ghana, tech in africa, mobile sales, pos, yipcart">
     <meta name="description" content="YipCart is not just an ecommerce platform that has everything you need to sell online, on social media, or in person, it is also the easiest to use.">
     <meta name="referrer" content="no-referrer-when-downgrade">
-    <meta content="Yipcart | The easiest way to sell online and offline" property="og:title">
-    <meta content="https://www.instagram.com/yipcarthq/" property="og:see_also">
-    <meta content="https://www.facebook.com/yipcarthq/" property="og:see_also">
-    <meta content="https://twitter.com/yipcarthq" property="og:see_also">
-    <link href="https://yipcart.com/" rel="canonical">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#3668d3">
-    <meta name="msapplication-TileColor" content="#3668d3">
-    <meta name="theme-color" content="#ffffff">
-    <link href="/" rel="home">
-    <link href="https://yipcart.com/" rel="alternate" hreflang="x-default">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="css/yip-font.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/yip-images.css"/>
-    <link rel="stylesheet" href="css/yip-texts.css"/>
-    <link rel="stylesheet" href="css/yip-backgrounds.css"/>
-    <link rel="stylesheet" href="css/yipcart.css"/>
-    <link rel="stylesheet" href="css/waiting.css"/>
-    <link rel="stylesheet" href="css/thank-you.css"/>
-    <link rel="stylesheet" href="css/yip-transitions.css"/>
-    <link rel="stylesheet" href="css/yip-media-screens.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+  	<link rel="stylesheet" href="stylesheet/app.css">
+	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <title>YipCart</title> 
   </head>
 
   <body>
@@ -42,30 +21,107 @@
       <%= render @view_module, @view_template, assigns %>
     </main>
 
-    <footer class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <a href="<%= page_path(@conn, :index) %>" class="col-3 footer-logo">
-            <img src="images/yipcart-logo-footer.svg" alt="YipCart logo">
-          </a>
-          <div class="col-sm-3">
-            <div class="footer-group-label">
-              <h4>Follow</h4>
-            </div>
-            <div class="footer-group col">
-              <ul class="row follow-social">
-                <li><a href="https://www.instagram.com/yipcarthq/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="https://twitter.com/yipcarthq" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
-                <li><a href="https://facebook.com/yipcarthq" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-              </ul> 
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <footer class="yc-footer">
+		  <div class="container">
+			  <div class="row yc-footer-top d-none">
+				  <div class="col-md-3">
+					  <ul>
+						  <span class="footer__title">Product</span>
+						  <li><a href="/productivity">Productivity</a></li>
+						  <li><a href="/collaboration">Collaboration</a></li>
+						  <li><a href="/insights">Insights</a></li>
+						  <li><a href="/implementation">Implementation</a></li>
+						  <li><a href="/integrations">Integrations</a></li>
+						  <li><a href="/g-suite-crm">G Suite crm</a></li>
+					  </ul>
+				  </div>
+			  </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+			  <div class="row yc-footer-bottom">
+				  <div class="appstore-btns">
+					  <a href="/" title="Download on the App Store" target="_blank" class="app-button iphone" style="background-image: url(https://s3.us-east-2.amazonaws.com/yipcart-static-resources/download-on-appstore.svg)">
+					  </a>
+					  <a href="https://play.google.com/store/apps/details?id=com.yipcart.yipcart" title="Get It the Google Store" target="_blank" class="app-button android" style="background-image: url(https://s3.us-east-2.amazonaws.com/yipcart-static-resources/download-on-google-play.png)">
+					  </a>
+				  </div>
+				  <ul class="list">
+					  <li class="copyright">© 2019 YipCart. All rights reserved</li>
+					  <li><a href="/">Terms and Conditions</a></li>
+					  <li><a href="tel:8556678927"></a></li>
+				  </ul>
+			  </div>
+		  </div>
+	  </footer>
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="javascript/jquery-3.3.1.min.js"></script>
+    <script src="javascript/popper.min.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+
+    <script>
+      $(function () {
+        $(window).scroll(function () {
+          if ($(window).scrollTop() >= 100) {
+            $('nav').addClass('scrolled');
+          }
+          else {
+            $('nav').removeClass('scrolled');
+          }
+        });
+      });
+    </script>
+
+    <!-- Navbar Script -->
+    <script>
+      $(function () {
+        var Accordion = function (el, multiple) {
+          this.el = el || {};
+          this.multiple = multiple || false;
+
+          // Variables privadas
+          var links = this.el.find('.link');
+          // Evento
+          links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
+        }
+
+        Accordion.prototype.dropdown = function (e) {
+          var $el = e.data.el;
+          $this = $(this),
+          $next = $this.next();
+
+          $next.slideToggle();
+          $this.parent().toggleClass('open');
+
+          if (!e.data.multiple) {
+            $el.find('.ds-accordion--content').not($next).slideUp().parent().removeClass('open');
+          };
+        }
+
+        var accordion = new Accordion($('#accordion'), false);
+      });
+    </script>
+
+    <!-- Navbar Mobile -->
+    <script>
+      (function ($) {
+        $(document).ready(function () {
+          var $menuRevealBtn = $('#menu-reveal');
+          var $sideNav = $('#sr-sideNav--mobile');
+          var $sideNavMask = $('#sr-sideNav--mobile__mask');
+
+          $menuRevealBtn.on('click', function () {
+            $sideNav.addClass('visible');
+            $sideNavMask.addClass('visible');
+          });
+
+          $sideNavMask.on('click', function () {
+            $sideNav.removeClass('visible');
+            $sideNavMask.removeClass('visible');
+          });
+        });
+      })(jQuery)
+    </script>
   </body>
 </html>
