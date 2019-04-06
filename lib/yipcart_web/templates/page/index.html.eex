@@ -10,7 +10,7 @@
 								<strong class="">Sign up with YipCart</strong>
 								<h1 class="heading--1">Your product’s future <br> could be hiding in your data</h1>
 								<div class="mt-4">
-									<a href="#" class="btn bg-primary text-white">Get Started</a>
+									<a href="https://app.yipcart.com/admin/get-started" class="btn bg-primary text-white">Get Started</a>
 								</div>
 							</div>
 						</div>
@@ -204,7 +204,7 @@
 						<strong class="text-white">Sign up for YipCart</strong>
 						<h2 class="text-white">Your product’s future <br> could be hiding in your data</h2>
 						<div class="">
-							<a class="btn">Get Started</a>
+							<a href="https://app.yipcart.com/admin/get-started" class="btn">Get Started</a>
 						</div>
 					</div>
 				</div>
