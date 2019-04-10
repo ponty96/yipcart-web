@@ -7252,13 +7252,94 @@ input, button, select, textarea {
   -webkit-align-items: flex-end;
   align-items: flex-end; }
 
+.feature-header {
+  background: -webkit-gradient(linear, right top, left top, color-stop(10%, #6772e5), to(#3668D3));
+  background: linear-gradient(to left, #6772e5 10%, #3668D3 100%);
+  background-size: cover;
+  padding: 6rem 0;
+  position: relative;
+  overflow: hidden;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .feature-header {
+      padding: 10rem 0; } }
+  .feature-header .feature-header__has-padding {
+    padding-top: 100px; }
+  .feature-header .hero-global-alignment {
+    text-align: center; }
+    @media (min-width: 768px) {
+      .feature-header .hero-global-alignment {
+        text-align: left; } }
+  .feature-header .feature-section-illustration--dashboard {
+    display: none;
+    left: -11%;
+    position: relative;
+    top: 0;
+    -webkit-transition: opacity 300ms;
+    transition: opacity 300ms; }
+    @media (min-width: 992px) {
+      .feature-header .feature-section-illustration--dashboard {
+        display: inline-flex; } }
+    .feature-header .feature-section-illustration--dashboard img {
+      width: 1000px; }
+
+.hero-section {
+  background: -webkit-gradient(linear, right top, left top, color-stop(10%, #6772e5), to(#3668D3));
+  background: linear-gradient(to left, #6772e5 10%, #3668D3 100%);
+  height: auto;
+  position: relative;
+  overflow: hidden; }
+  @media (min-width: 768px) {
+    .hero-section {
+      height: 90vh; } }
+  .hero-section .hero-section__primary-title {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    overflow: hidden; }
+  .hero-section .hero__caption {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.2rem;
+    font-family: "Circular",sans-serif;
+    line-height: 1.5; }
+  .hero-section .app-store-badges {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-top: 40px; }
+    @media (min-width: 768px) {
+      .hero-section .app-store-badges {
+        justify-content: flex-start; } }
+    .hero-section .app-store-badges .android-badge {
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height: 70px;
+      width: 200px;
+      background-image: url(../images/svg/google-play-badge.svg); }
+    .hero-section .app-store-badges .iOS-badge {
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height: 75px;
+      width: 209px;
+      cursor: unset;
+      background-image: url(../images/svg/appstore-badge.svg); }
+
 .yc-hero {
-  height: 30rem;
+  height: 100vh;
+  min-height: 30rem;
+  max-height: 65rem;
   padding: 5rem 0;
   transition: all 0.6s cubic-bezier(0.2, 0.8, 0.4, 1);
   -webkit-transition: all 0.6s cubic-bezier(0.2, 0.8, 0.4, 1);
   -moz-transition: all 0.6s cubic-bezier(0.2, 0.8, 0.4, 1);
   background-size: cover;
+  background-image: url("../images/woman-relaxed-work.jpg");
   position: relative;
   text-align: center;
   display: -webkit-box;
@@ -7428,6 +7509,90 @@ input, button, select, textarea {
         .yc-footer .yc-footer-bottom .list li a {
           color: #37383c; }
 
+.yc-download {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+  .yc-download .yc-download-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; }
+    @media (min-width: 768px) {
+      .yc-download .yc-download-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%; } }
+    .yc-download .yc-download-1 .yc-download-phones {
+      position: relative;
+      text-align: center;
+      padding: 2rem 0; }
+      @media (min-width: 768px) {
+        .yc-download .yc-download-1 .yc-download-phones {
+          padding: 0; } }
+      .yc-download .yc-download-1 .yc-download-phones .yc-text-bottom {
+        font-size: 23px;
+        font-weight: 300;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        letter-spacing: .05em;
+        line-height: 29px; }
+      .yc-download .yc-download-1 .yc-download-phones .yc-download-h3 {
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 13.5px;
+        font-weight: 500;
+        letter-spacing: .15em;
+        line-height: 17px;
+        margin-bottom: 7px;
+        text-transform: uppercase; }
+        .yc-download .yc-download-1 .yc-download-phones .yc-download-h3 p {
+          line-height: 1; }
+      .yc-download .yc-download-1 .yc-download-phones .yc-download-h2 {
+        margin-bottom: 2rem;
+        font-size: 28px;
+        font-weight: 300;
+        letter-spacing: .05em;
+        line-height: 29px; }
+        .yc-download .yc-download-1 .yc-download-phones .yc-download-h2 p {
+          line-height: 1; }
+      .yc-download .yc-download-1 .yc-download-phones .yc-download-phone-row {
+        font-size: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 25rem;
+        margin: 0 auto; }
+        .yc-download .yc-download-1 .yc-download-phones .yc-download-phone-row .yc-download-phone-text {
+          background-color: #fff;
+          border-radius: 20px;
+          color: rgba(29, 33, 41, 0.65) !important;
+          display: inline-block;
+          line-height: 29px;
+          padding-left: 17px;
+          padding-right: 17px;
+          white-space: nowrap; }
+        .yc-download .yc-download-1 .yc-download-phones .yc-download-phone-row .yc-download-android {
+          position: relative; }
+          .yc-download .yc-download-1 .yc-download-phones .yc-download-phone-row .yc-download-android .yc-download-a-android {
+            background-image: url(../images/android.png);
+            width: 108px; }
+          .yc-download .yc-download-1 .yc-download-phones .yc-download-phone-row .yc-download-android .yc-download-a-iOS {
+            background-image: url(../images/ios.png);
+            width: 108px; }
+          .yc-download .yc-download-1 .yc-download-phones .yc-download-phone-row .yc-download-android .yc-download-a {
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: inline-block;
+            height: 13rem;
+            margin-bottom: 1rem; }
+
 nav {
   background: none;
   min-height: 2rem;
@@ -7443,7 +7608,7 @@ nav {
     nav {
       display: none; } }
   nav .ds-nav--wrapper {
-    padding: 1.2rem 4.8rem;
+    padding: 3rem 0 0;
     position: inherit;
     transition: 0.35s all ease;
     border-bottom: 1px solid rgba(241, 241, 241, 0); }
@@ -7454,7 +7619,7 @@ nav {
         width: 7rem;
         display: none; }
       nav .ds-nav--wrapper .ds-nav--logo .cls-2 {
-        width: 7em;
+        width: 10em;
         display: inline-block; }
     nav .ds-nav--wrapper .ds-nav--link-wrapper {
       display: inline-block; }
@@ -7462,11 +7627,11 @@ nav {
         display: inline-block; }
         nav .ds-nav--wrapper .ds-nav--link-wrapper .ds-nav--link-item .ds-nav--link {
           padding: 0 1rem;
-          color: #212529;
-          font-weight: 700;
+          color: #fff;
+          font-weight: 400;
           outline: none;
           user-select: none;
-          font-size: 16px;
+          font-size: 15px;
           text-decoration: none;
           -webkit-tap-highlight-color: transparent;
           -webkit-transition: color .1s;
@@ -7474,19 +7639,40 @@ nav {
           nav .ds-nav--wrapper .ds-nav--link-wrapper .ds-nav--link-item .ds-nav--link:last-of-type {
             padding-right: 2rem; }
           nav .ds-nav--wrapper .ds-nav--link-wrapper .ds-nav--link-item .ds-nav--link:hover {
-            color: rgba(54, 104, 211, 0.6); }
+            color: rgba(255, 255, 255, 0.6); }
         nav .ds-nav--wrapper .ds-nav--link-wrapper .ds-nav--link-item .ds-nav-button {
-          background-color: #F8F9FC;
-          position: relative;
-          padding: .5rem 1.5rem;
-          border-radius: 1rem;
-          border: .09rem solid #3668D3;
-          outline: none;
-          text-transform: uppercase;
-          font-weight: 700;
+          background-color: #fff;
           color: #3668D3;
-          font-size: 0.8em;
-          text-decoration: none !important; }
+          border: none;
+          border-radius: 4px;
+          -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.15);
+          cursor: pointer;
+          display: inline-block;
+          font-family: inherit;
+          font-size: 14px;
+          font-weight: 500;
+          height: 40px;
+          line-height: 40px;
+          outline: none;
+          padding-left: 1.5em;
+          padding-right: 1.5em;
+          position: relative;
+          text-decoration: none;
+          -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+          text-transform: capitalize;
+          -webkit-transition-property: background, box-shadow, color, transform;
+          -webkit-transition-property: background, color, -webkit-box-shadow, -webkit-transform;
+          transition-property: background, color, -webkit-box-shadow, -webkit-transform;
+          transition-property: background, box-shadow, color, transform;
+          transition-property: background, box-shadow, color, transform, -webkit-box-shadow, -webkit-transform;
+          -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none; }
           nav .ds-nav--wrapper .ds-nav--link-wrapper .ds-nav--link-item .ds-nav-button:hover {
             background-color: #3668D3;
             color: #fff; }
@@ -7497,7 +7683,8 @@ nav {
   width: 100%;
   border-bottom: 1px solid #f1f1f1; }
   .scrolled .ds-nav--wrapper {
-    position: inherit; }
+    position: inherit;
+    padding: .7rem 0; }
     .scrolled .ds-nav--wrapper .ds-nav--logo {
       flex: 1;
       width: 220px; }
@@ -7519,8 +7706,8 @@ nav {
           .scrolled .ds-nav--wrapper .ds-nav--link-wrapper .ds-nav--link-item .ds-nav--link:hover {
             color: rgba(54, 104, 211, 0.6); }
         .scrolled .ds-nav--wrapper .ds-nav--link-wrapper .ds-nav--link-item .ds-nav-button {
-          background-color: #fff;
-          color: #3668D3; }
+          background-color: #3668D3;
+          color: #fff; }
 
 .sr-nav--mobile {
   align-items: center;
@@ -7688,6 +7875,15 @@ nav {
 
 .yc-price {
   padding: 10rem 0 0; }
+  .yc-price .btn-group {
+    flex-wrap: wrap;
+    margin: 1.5rem 0 0;
+    padding-bottom: 1rem; }
+    @media (min-width: 576px) {
+      .yc-price .btn-group {
+        flex-wrap: nowrap;
+        margin: 0;
+        padding-bottom: 0; } }
   .yc-price .yc-btn-toggle {
     display: inline-block;
     padding: 6px 12px;
@@ -7709,22 +7905,27 @@ nav {
     border: 1px solid transparent;
     border-radius: 4px; }
   .yc-price .btn {
-    width: 180px;
+    width: 100%;
     height: 34px;
     font-size: 13px;
     font-weight: 600;
     color: #374654;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-bottom: 15px;
-    margin-top: 25px;
+    margin: 0;
     background: white;
     border-width: 1px;
     border-style: solid;
     border-color: #374654;
     border-image: initial;
-    border-radius: 3px;
-    outline: none; }
+    border-radius: 0;
+    outline: none;
+    flex-wrap: wrap; }
+    @media (min-width: 576px) {
+      .yc-price .btn {
+        margin: 1.5rem 0 1rem;
+        width: 180px;
+        border-radius: 3px; } }
   .yc-price .btn-secondary:not(:disabled):not(.disabled):active, .yc-price .btn-secondary:not(:disabled):not(.disabled).active, .yc-price .show > .btn-secondary.dropdown-toggle {
     color: #fff;
     background-color: #3668D3;

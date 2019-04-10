@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+  <html lang="en">
   <head>
-    <meta charset="UTF-8">
+	  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="generator" content="SEOmatic">
@@ -16,44 +16,11 @@
     <link href="stylesheet/aos.css" rel="stylesheet"/>
 	  <title>YipCart</title> 
   </head>
-
-  <body>
+  
+  <body style="background-color: #F7F7F7;">
     <main role="main">
       <%= render @view_module, @view_template, assigns %>
     </main>
-
-    <footer class="yc-footer">
-		  <div class="container">
-			  <div class="row yc-footer-top d-none">
-				  <div class="col-md-3">
-					  <ul>
-						  <span class="footer__title">Product</span>
-						  <li><a href="/productivity">Productivity</a></li>
-						  <li><a href="/collaboration">Collaboration</a></li>
-						  <li><a href="/insights">Insights</a></li>
-						  <li><a href="/implementation">Implementation</a></li>
-						  <li><a href="/integrations">Integrations</a></li>
-						  <li><a href="/g-suite-crm">G Suite crm</a></li>
-					  </ul>
-				  </div>
-			  </div>
-
-			  <div class="row yc-footer-bottom">
-				  <div class="appstore-btns">
-					  <a href="/" title="Download on the App Store" target="_blank" class="app-button iphone" style="background-image: url(https://s3.us-east-2.amazonaws.com/yipcart-static-resources/download-on-appstore.svg)">
-					  </a>
-					  <a href="https://play.google.com/store/apps/details?id=com.yipcart.yipcart" title="Get It the Google Store" target="_blank" class="app-button android" style="background-image: url(https://s3.us-east-2.amazonaws.com/yipcart-static-resources/download-on-google-play.png)">
-					  </a>
-				  </div>
-				  <ul class="list">
-					  <li class="copyright">© 2019 YipCart. All rights reserved</li>
-					  <li><a href="/">Terms and Conditions</a></li>
-					  <li><a href="tel:8556678927"></a></li>
-				  </ul>
-			  </div>
-		  </div>
-	  </footer>
-  
 
     <!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->

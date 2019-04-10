@@ -1,0 +1,42 @@
+<div id="ycPageContainer">
+	<main role="main" style="background-color: #F7F7F7; height: 100%; width: 100%; position: absolute;">
+
+		<section class="yc-download">
+			<div class="yc-download-1">
+				<div class="yc-download-phones">
+					<h3 class="yc-download-h3">
+						<p class="my-0">Download YipCart for</p>
+					</h3>
+					<h1 class="yc-download-h2">
+						<p>Phones</p>
+					</h1>
+					<div class="yc-download-phone-row">
+						<div class="yc-download-android">
+							<a class="yc-download-a-android yc-download-a" href="/android/"></a>
+							<div>
+								<a class="yc-download-phone-text" href="/android/">Android</a>
+							</div>
+						</div>
+
+						<div class="yc-download-android">
+							<a class="yc-download-a-iOS yc-download-a" href="/iOS/"></a>
+							<div>
+								<a class="yc-download-phone-text" href="/iOS/">iOS</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="yc-download-phones">
+						<div class="yc-text-bottom">
+							<p>Visit <a class="_36or" href="https://yipcart.com/dl"></a><a href="https://yipcart.com/dl">yipcart.com/dl</a> on your mobile phone to install.</p>
+						</div>
+						<div class="yc-download-h2 small" style="font-size: 18px">
+							Go Back <a href="<%= page_path(@conn, :index) %>">Home</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+</div>

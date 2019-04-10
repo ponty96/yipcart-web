@@ -1,6 +1,16 @@
 
 .yc-price {
   padding: 10rem 0 0;
+  .btn-group {
+    @include media-breakpoint-up(sm) {
+      flex-wrap: nowrap;
+      margin: 0;
+      padding-bottom: 0;
+    }
+    flex-wrap: wrap;
+    margin: 1.5rem 0 0;
+    padding-bottom: 1rem;
+  }
   .yc-btn-toggle {
     display: inline-block;
     padding: 6px 12px;
@@ -23,22 +33,27 @@
     border-radius: 4px;
   }
   .btn {
-    width: 180px;
+    @include media-breakpoint-up(sm) {
+      margin: 1.5rem 0 1rem;
+      width: 180px;
+      border-radius: 3px;
+    }
+    width: 100%;
     height: 34px;
     font-size: 13px;
     font-weight: 600;
     color: rgb(55, 70, 84);
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-bottom: 15px;
-    margin-top: 25px;
+    margin: 0;
     background: rgb(255, 255, 255);
     border-width: 1px;
     border-style: solid;
     border-color: rgb(55, 70, 84);
     border-image: initial;
-    border-radius: 3px;
+    border-radius: 0;
     outline: none;
+    flex-wrap: wrap;
   }
   .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
     color: #fff;
