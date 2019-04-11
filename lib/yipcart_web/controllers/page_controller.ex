@@ -20,7 +20,7 @@ defmodule YipcartWeb.PageController do
 
         Browser.ios?(user_agent) ->
           conn
-          |> redirect(external: "link here")
+          |> redirect(external: "https://docs.google.com/forms/d/e/1FAIpQLSdzKDxwQDyaqEv5e_KmtA9ppTOaIQptP_AIdphF2-22JqEw9Q/viewform?usp=sf_link")
 
         true ->
           conn = put_layout(conn, "download_layout.html")

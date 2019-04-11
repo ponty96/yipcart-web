@@ -12,16 +12,16 @@
 					</h1>
 					<div class="yc-download-phone-row">
 						<div class="yc-download-android">
-							<a class="yc-download-a-android yc-download-a" href="/android/"></a>
+							<a class="yc-download-a-android yc-download-a" href="https://play.google.com/store/apps/details?id=com.yipcart.yipcart"></a>
 							<div>
-								<a class="yc-download-phone-text" href="/android/">Android</a>
+								<a class="yc-download-phone-text" href="https://play.google.com/store/apps/details?id=com.yipcart.yipcart">Android</a>
 							</div>
 						</div>
 
 						<div class="yc-download-android">
-							<a class="yc-download-a-iOS yc-download-a" href="/iOS/"></a>
+							<a class="yc-download-a-iOS yc-download-a" href="https://docs.google.com/forms/d/e/1FAIpQLSdzKDxwQDyaqEv5e_KmtA9ppTOaIQptP_AIdphF2-22JqEw9Q/viewform?usp=sf_link"></a>
 							<div>
-								<a class="yc-download-phone-text" href="/iOS/">iOS</a>
+								<a class="yc-download-phone-text" href="https://docs.google.com/forms/d/e/1FAIpQLSdzKDxwQDyaqEv5e_KmtA9ppTOaIQptP_AIdphF2-22JqEw9Q/viewform?usp=sf_link">iOS</a>
 							</div>
 						</div>
 					</div>
