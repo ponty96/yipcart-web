@@ -14,6 +14,15 @@
 	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="stylesheet/aos.css" rel="stylesheet"/>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138185046-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-138185046-1');
+    </script>
 	  <title>YipCart</title> 
   </head>
 
