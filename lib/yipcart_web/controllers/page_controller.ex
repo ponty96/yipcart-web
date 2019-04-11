@@ -10,6 +10,7 @@ defmodule YipcartWeb.PageController do
   end
 
   def download(conn, _params) do
+    IO.inspect conn, label: "conn"
     [user_agent] = get_req_header(conn, "user-agent")
 
     if Browser.mobile?(user_agent) or Browser.tablet?(user_agent) do
@@ -30,5 +31,10 @@ defmodule YipcartWeb.PageController do
       conn = put_layout(conn, "download_layout.html")
       render conn, "downloads.html"
     end
+  end
+
+  def dl(conn, _params) do
+    conn = put_layout(conn, "download_layout.html")
+    render conn, "downloads.html"
   end
 end

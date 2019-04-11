@@ -19,6 +19,7 @@ defmodule YipcartWeb.Router do
     get "/", PageController, :index
     get "/price", PageController, :price
     get "/download", PageController, :download
+    get "/dl", PageController, :dl
   end
 
   # Other scopes may use custom stacks.

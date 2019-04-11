@@ -28,7 +28,7 @@
 
 					<div class="yc-download-phones">
 						<div class="yc-text-bottom">
-							<p>Visit <a class="_36or" href="https://yipcart.com/dl"></a><a href="https://yipcart.com/dl">yipcart.com/dl</a> on your mobile phone to install.</p>
+							<p>Visit <a class="_36or" href="/dl"></a><a href="/dl">yipcart.com/dl</a> on your mobile phone to install.</p>
 						</div>
 						<div class="yc-download-h2 small" style="font-size: 18px">
 							Go Back <a href="<%= page_path(@conn, :index) %>">Home</a>
