@@ -71,10 +71,10 @@
 
 		<section class="yc-price">
 			<article class="container">
-				<div class="section-heading mb-0">
+				<div class="section-heading">
 					<h1>Choose the right plan for your business</h1>
 					<p class="section-heading__subhead mb-0">Start your free trial. No credit card required.</p>
-					<div class="btn-group btn-group-toggle mb-0" data-toggle="buttons">
+					<div class="btn-group btn-group-toggle mb-0 d-none" data-toggle="buttons">
 						<label class="yc-btn-toggle btn btn-secondary active">
 							<input type="radio" name="options" id="option1" autocomplete="off" checked> Annual Billing
 						</label>
@@ -82,7 +82,7 @@
 							<input type="radio" name="options" id="option2" autocomplete="off"> Monthly Billing
 						</label>
 					</div>
-					<p class="mt-0 text-muted">Save by paying annually</p>
+					<p class="mt-0 text-muted d-none">Save by paying annually</p>
 				</div>
 			</article>
 		</section>
