@@ -8,12 +8,28 @@
     <meta name="keywords" content="sell easily online and offline, buy, buy online, sell, sell online, sell offline, trade, sell on instagram, sell on social media, e-commerce, payments, africa, nigeria, ghana, tech in africa, mobile sales, pos, yipcart">
     <meta name="description" content="YipCart is not just an ecommerce platform that has everything you need to sell online, on social media, or in person, it is also the easiest to use.">
     <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="msapplication-TileColor" content="#3668d3">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Bootstrap CSS -->
   	<link rel="stylesheet" href="stylesheet/app.css">
 	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="stylesheet/aos.css" rel="stylesheet"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#3668d3">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138185046-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-138185046-1');
+    </script>
 	  <title>YipCart</title> 
   </head>
   
