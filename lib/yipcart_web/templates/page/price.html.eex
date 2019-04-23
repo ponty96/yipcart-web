@@ -301,6 +301,10 @@
 
 						</div>
 
+						<div class="text-center">
+							<span class="small px-0 px-md-5">Note: YipCart charges 2% for every transaction and 1.4% maxed at N2000 for payment processing fee</span>
+						</div>
+
 						<div class="mt-5">
 							<div class="card">
 								<a href="<%= page_path(@conn, :download) %>" class="btn bg-primary text-white p-2 font-weight-bold">Start For Free!</a>
